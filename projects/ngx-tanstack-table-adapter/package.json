@@ -1,0 +1,29 @@
+{
+  "name": "ngx-tanstack-table-adapter",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@tanstack/table-core": "^8.12.0",
+    "@tanstack/match-sorter-utils": "^8.11.8"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/ivan-romeo/ngx-tanstack-table-workspace.git"
+  },
+  "keywords": [
+    "tanstack table",
+    "tanstack",
+    "table",
+    "datatable",
+    "datagrid",
+    "angular",
+    "angular-icon"
+  ],
+  "license": "MIT",
+  "author": "ivan-romeo",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

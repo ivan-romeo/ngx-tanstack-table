@@ -9,6 +9,14 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "ngx-tanstack-table-adapter": [
+        "./dist/ngx-tanstack-table-adapter"
+      ],
+      "@projects/*": [
+        "./projects/*"
+      ],
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
@@ -21,7 +29,7 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
